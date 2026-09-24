@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="./CSS/contact.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://smtpjs.com/v3/smtp.js" defer></script>
+    <script src="./JS/script.js" defer></script>
+</head>
+
+<body>
+    <section class="contact-contents">
+        <h1 class="title">Contact Us</h1>
+        <div class="form-container">
+            <form onsubmit="sendMail(); reset(); return false;">
+                <h3>Get in Touch</h3>
+                <input type="text" placeholder="Your Name" class="name" id="name" required>
+                <br><input type="email" placeholder="Email" class="email" id="email" required>
+                <br><input type="number" placeholder="Phone No." class="phone" id="phone" required>
+                <button type="submit" class="send-btn">Send</button>
+            </form>
+        </div>
+
+        <div class="finishing-lines">
+            <p>
+                Our wine store is devoted to delivering exceptional customer care and maintaining the highest standards
+                of quality. We believe that every customer deserves personalized attention, and our team takes the time
+                to understand individual tastes and preferences. With a friendly and knowledgeable approach, we guide
+                customers in choosing the perfect bottle for any occasion. Each wine in our collection is carefully
+                selected from trusted sources to ensure authenticity and excellence.
+            </p>
+        </div>
+
+        <div class="address-line">
+            <p>
+                <b>Email</b> <i class="fa-solid fa-envelope"></i>: aliwaqas701@yahoo.com
+                <br><b>Phone</b> <i class="fa-solid fa-phone"></i>: 042-665541
+                <br><b>Cell Phone</b> <i class="fa-solid fa-mobile"></i>: +92-321-4465132
+                <br><b>WhatsApp</b> <i class="fa-brands fa-whatsapp"></i>: +92-321-4465132
+                <br><b>Address</b> <i class="fa-solid fa-house"></i>: Saleem Chambers, Tufail Plaza, Door Plate 30,
+                McLeod Road, Lahore, Punjab, Pakistan.
+            </p>
+        </div>
+    </section>
+</body>
+
+</html>

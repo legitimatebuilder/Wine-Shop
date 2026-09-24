@@ -1,0 +1,153 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+.contact-contents {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    background: #d1be9c;
+}
+
+.contact-contents .title {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #880d1e;
+}
+
+.contact-contents .title::before {
+    position: absolute;
+    content: '';
+    width: 165px;
+    height: 6px;
+    background: #cc8b86;
+    top: 42px;
+    left: 0px;
+}
+
+.contact-contents .form-container {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: #880d1e;
+    top: 25%;
+    left: 100px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    float: left;
+}
+
+.contact-contents .form-container form h3 {
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    color: #d1be9c;
+}
+
+.contact-contents .form-container form .name {
+    margin-top: 100px;
+    margin-left: 50px;
+    width: 230px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #cc8b86;
+    padding: 0px 12px;
+}
+
+.contact-contents .form-container form .email {
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 230px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #cc8b86;
+    padding: 0px 12px;
+}
+
+.contact-contents .form-container form .phone {
+    margin-top: 35px;
+    margin-left: 50px;
+    width: 230px;
+    height: 40px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    background: #cc8b86;
+    padding: 0px 12px;
+}
+
+.contact-contents .form-container form .name::placeholder {
+    color: #880d1e;
+}
+
+.contact-contents .form-container form .email::placeholder {
+    color: #880d1e;
+}
+
+.contact-contents .form-container form .phone::placeholder {
+    color: #880d1e;
+}
+
+.contact-contents .form-container form .send-btn {
+    padding: 10px 50px;
+    background: #cc8b86;
+    border: 2px solid #d1be9c;
+    border-radius: 25px;
+    margin-top: 35px;
+    margin-left: 90px;
+    font-size: 18px;
+    color: #880d1e;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.contact-contents .address-line {
+    position: relative;
+    width: 350px;
+    height: 400px;
+    background: #cc8b86;
+    top: 25%;
+    right: 100px;
+    border: none;
+    outline: none;
+    border-radius: 12px;
+    float: right;
+}
+
+.contact-contents .address-line p {
+    text-align: left;
+    margin-top: 30px;
+    line-height: 3;
+    margin-left: 15px;
+}
+
+.contact-contents .address-line p i {
+    color: #880d1e;
+}
+
+.contact-contents .finishing-lines {
+    position: absolute;
+    width: 350px;
+    height: 400px;
+    /* background: lightgray; */
+    top: 25%;
+    left: 510px;
+}
+
+.contact-contents .finishing-lines p {
+    line-height: 2;
+    margin-left: 3px;
+    margin-right: 3px;
+    color: #880d1e;
+}
